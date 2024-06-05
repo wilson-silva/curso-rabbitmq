@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="producer-service">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/producer-service.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
