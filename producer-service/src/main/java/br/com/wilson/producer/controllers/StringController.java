@@ -16,8 +16,8 @@ public class StringController {
     private final StringService stringService;
 
     @GetMapping
-    public ResponseEntity<String> produces(@RequestParam("message") String message){
-        stringService.produce(message);
+    public ResponseEntity<String> produceString(@RequestParam("message") String message){
+        stringService.produceString(message);
         return ResponseEntity.ok().body("Sending message");
     }
 }
