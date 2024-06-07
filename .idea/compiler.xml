@@ -9,9 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consumer-service" />
         <module name="producer-service" />
+        <module name="commons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="commons" target="17" />
       <module name="consumer-service" target="17" />
       <module name="producer-service" target="17" />
     </bytecodeTargetLevel>
